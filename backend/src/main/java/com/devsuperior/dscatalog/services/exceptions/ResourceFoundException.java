@@ -1,9 +1,9 @@
 package com.devsuperior.dscatalog.services.exceptions;
 
-public class EntityFoundException extends RuntimeException {
+public class ResourceFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 	
-	public EntityFoundException(String msg) {
+	public ResourceFoundException(String msg) {
 		super(msg);
 	}
 
